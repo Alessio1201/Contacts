@@ -13,13 +13,13 @@
             text-align: center;
         }
         .container {
-            width: 80%;
+            width: 90%;
             margin: auto;
             overflow: hidden;
             padding: 20px;
             background: white;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            margin-top: 50px;
+            margin-top: 20px;
         }
         .header img {
             max-height: 100px;
@@ -45,12 +45,13 @@
         }
         .contact-info {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
             flex-wrap: wrap;
         }
         .contact-info div {
-            width: 45%;
-            margin: 10px 2.5%;
+            width: 90%;
+            margin: 10px 0;
             text-align: center;
             font-size: 18px;
         }
@@ -69,8 +70,24 @@
             margin-top: 30px;
         }
         .logos img {
-            max-height: 100px;
-            margin: 20px;
+            max-height: 80px;
+            margin: 10px;
+        }
+        @media (min-width: 600px) {
+            .container {
+                width: 80%;
+            }
+            .contact-info {
+                flex-direction: row;
+            }
+            .contact-info div {
+                width: 45%;
+                margin: 10px 2.5%;
+            }
+            .logos img {
+                max-height: 100px;
+                margin: 20px;
+            }
         }
     </style>
 </head>
@@ -79,7 +96,7 @@
         <img src="logo1.png" alt="Logo 1" class="logo-center">
     </header>
     <div class="container">
-        <div class="title">Effect of pre-treatment conditions on Fe-based catalyst for e-fuel production via modified Fischer-Tropsch synthesis</div>
+        <div class="title">Alessio Tauro - Effect of pre-treatment conditions on Fe-based catalyst for e-fuel production via modified Fischer-Tropsch synthesis</div>
         <div class="thank-you">Thank you for attending our presentation!</div>
         <div class="contacts">
             Here you can find our contacts:
