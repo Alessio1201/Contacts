@@ -1,140 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Information</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .container {
-            width: 90%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            margin-top: 20px;
-        }
-        .header img {
-            max-height: 100px;
-            vertical-align: middle;
-        }
-        .logo-center {
-            display: block;
-            margin: 0 auto;
-            max-height: 100px;
-        }
-        .title {
-            font-size: 22px;
-            margin: 20px 0;
-        }
-        .thank-you {
-            font-size: 26px;
-            font-weight: bold;
-            margin: 20px 0;
-        }
-        .contacts {
-            font-size: 20px;
-            margin: 20px 0;
-        }
-        .contact-info {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        .contact-info div {
-            width: 90%;
-            margin: 10px 0;
-            text-align: center;
-            font-size: 18px;
-        }
-        .contact-info a {
-            color: #333;
-            text-decoration: none;
-            font-size: 18px;
-        }
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-        .logos {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 30px;
-        }
-        .logos img {
-            max-height: 80px;
-            margin: 10px;
-        }
-        @media (min-width: 600px) {
-            .container {
-                width: 80%;
-            }
-            .contact-info {
-                flex-direction: row;
-                justify-content: center;
-            }
-            .contact-info div {
-                width: 30%; /* Adjusted for three contacts per row */
-                margin: 10px 1.5%;
-            }
-            .logos img {
-                max-height: 100px;
-                margin: 20px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poster Conference with QR Code</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+    .container {
+      width: 90%;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+    .header img {
+      max-height: 100px;
+      vertical-align: middle;
+    }
+    .thank-you {
+      font-size: 26px;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+    .contacts {
+      font-size: 20px;
+      margin: 20px 0;
+    }
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .contact-info div {
+      width: 90%;
+      margin: 10px 0;
+      text-align: center;
+      font-size: 18px;
+    }
+    .contact-info a {
+      color: #333;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    .qr-section {
+      margin: 30px 0;
+    }
+    .qr-section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  .qr-section h10 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .qr-section h11 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .logos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .logos img {
+      max-height: 80px;
+      margin: 10px;
+    }
+    @media (min-width: 600px) {
+      .container {
+        width: 80%;
+      }
+      .contact-info {
+        flex-direction: row;
+        justify-content: center;
+      }
+      .contact-info div {
+        width: 30%;
+        margin: 10px 1.5%;
+      }
+      .logos img {
+        max-height: 100px;
+        margin: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header class="header">
-        <img src="logo1.png" alt="Logo 1" class="logo-center">
-    </header>
-    <div class="container">
-        <div class="title">Effect of zeolite acidity on Fe-based catalysts for e-fuel production via CO<sub>2</sub>-modified Fischer-Tropsch Synthesis
-        </div>
-        <div class="thank-you">Thank you for attending our presentation!</div>
-        <div class="contacts">
-            Here you can find our contacts:
-        </div>
-        <div class="contact-info">
-            <div>
-                <strong>Alessio Tauro</strong>: PhD Student<br>
-                <a href="mailto:alessio.tauro@polito.it">alessio.tauro@polito.it</a><br>
-                <a href="https://www.polito.it/en/staff?p=052748">Website</a><br>
-            </div>
-            <div>
-                <strong>Fabio Salomone</strong>: Assistant Professor <br>
-                <a href="mailto:fabio.salomone@polito.it">fabio.salomone@polito.it</a><br>
-                <a href="https://www.polito.it/en/staff?p=030410">Website</a>
-            </div>
-            <div>
-                <strong>Fabrizio Celoria</strong>: PhD Student<br>
-                <a href="mailto:fabrizio.celoria@polito.it">fabrizio.celoria@polito.it</a><br>
-                <a href="https://www.polito.it/personale?p=fabrizio.celoria">Website</a>
-            </div>
-            <div>
-                <strong>Prof. Raffaele Pirone</strong>: Full-Professor<br>
-                <a href="mailto:raffaele.pirone@polito.it">raffaele.pirone@polito.it</a><br>
-                <a href="https://www.polito.it/en/staff?p=raffaele.pirone">Website</a>
-            </div>
-            <div>
-                <strong>Prof. Samir Bensaid</strong>: Full-Professor<br>
-                <a href="mailto:samir.bensaid@polito.it">samir.bensaid@polito.it</a><br>
-                <a href="https://www.polito.it/en/staff?p=samir.bensaid">Website</a>
-            </div>
-        </div>
-        <div class="logos">
-            <img src="logo2.png" alt="Logo 2">
-            <img src="logo3.png" alt="Logo 3">
-            <img src="logo4.png" alt="Logo 4">
-        </div>
+  <header class="header">
+    <img src="logo1.png" alt="Logo 1">
+  </header>
+  <div class="container">
+    <div class="thank-you">
+      Thank you for visiting our posters!
     </div>
+    <div class="contacts">
+      Here you can find our contacts:
+    </div>
+    <div class="contact-info">
+      <div>
+        <strong>Alessio Tauro</strong>: PhD Student<br>
+        <a href="mailto:alessio.tauro@polito.it">alessio.tauro@polito.it</a><br>
+        <a href="https://www.polito.it/en/staff?p=052748">Website</a><br>
+        <a href="https://www.linkedin.com/in/alessiotauro/">LinkedIn</a><br>
+      </div>
+      <div>
+        <strong>Fabio Salomone</strong>: Assistant Professor <br>
+        <a href="mailto:fabio.salomone@polito.it">fabio.salomone@polito.it</a><br>
+        <a href="https://www.polito.it/en/staff?p=030410">Website</a>
+      </div>
+      <div>
+        <strong>Fabrizio Celoria</strong>: PhD Student<br>
+        <a href="mailto:fabrizio.celoria@polito.it">fabrizio.celoria@polito.it</a><br>
+        <a href="https://www.polito.it/personale?p=fabrizio.celoria">Website</a>
+      </div>
+      <div>
+        <strong>Prof. Raffaele Pirone</strong>: Full-Professor<br>
+        <a href="mailto:raffaele.pirone@polito.it">raffaele.pirone@polito.it</a><br>
+        <a href="https://www.polito.it/en/staff?p=raffaele.pirone">Website</a>
+      </div>
+      <div>
+        <strong>Prof. Samir Bensaid</strong>: Full-Professor<br>
+        <a href="mailto:samir.bensaid@polito.it">samir.bensaid@polito.it</a><br>
+        <a href="https://www.polito.it/en/staff?p=samir.bensaid">Website</a>
+      </div>
+    </div>
+
+    <div class="qr-section">
+      <h2 href='https://doi.org/10.1016/j.cej.2025.162113'>Check out our latest pubblication!</h2>
+      <h10>Kinetic study and deactivation phenomena for the methanation of CO2 and CO mixed syngas on a Ni/Al2O3 catalyst</h10>
+      <a href="https://doi.org/10.1016/j.cej.2025.162113">Link here</a><br>
+
+    </div>
+
+    <div class="logos">
+      <img src="logo2.png" alt="Logo 2">
+      <img src="logo3.png" alt="Logo 3">
+      <img src="logo4.png" alt="Logo 4">
+    </div>
+  </div>
 </body>
 </html>
